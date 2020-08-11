@@ -49,6 +49,7 @@
             this.ButtonAboutForm.TabIndex = 1;
             this.ButtonAboutForm.Text = "About";
             this.ButtonAboutForm.UseVisualStyleBackColor = true;
+            this.ButtonAboutForm.Click += new System.EventHandler(this.ButtonAboutForm_Click);
             // 
             // FormHomepage
             // 

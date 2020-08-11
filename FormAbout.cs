@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CalculatorApp
 {
-    public partial class FormHomepage : Form
+    public partial class FormAbout : Form
     {
-        public FormHomepage()
+        public FormAbout()
         {
             InitializeComponent();
-        }
-
-        private void ButtonAboutForm_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
