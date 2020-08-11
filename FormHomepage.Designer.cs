@@ -59,7 +59,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ButtonAboutForm);
             this.Controls.Add(this.ButtonCalculatorForm);
-            this.Enabled = false;
             this.Name = "FormHomepage";
             this.Text = "Homepage";
             this.ResumeLayout(false);
