@@ -10,8 +10,8 @@ using System.Windows.Forms;
 
 namespace CalculatorApp
 {
-           public partial class FormHomepage : Form
-        {
+ public partial class FormHomepage : Form
+ {
             FormAbout formAbout;
             FormCalculator formCalculator;
             public FormHomepage()
