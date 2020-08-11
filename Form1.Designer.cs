@@ -40,6 +40,7 @@
             this.ButtonCalculatorForm.TabIndex = 0;
             this.ButtonCalculatorForm.Text = "Calculator";
             this.ButtonCalculatorForm.UseVisualStyleBackColor = true;
+            this.ButtonCalculatorForm.Click += new System.EventHandler(this.ButtonCalculatorForm_Click);
             // 
             // ButtonAboutForm
             // 
