@@ -70,8 +70,8 @@ namespace CalculatorApp
               }
             catch (DivideByZeroException exc)
               {
-                  string message = "Do not divide by 0 :slight_smile: ";
-                  string title = "Divide by 0";
+                  string message = "Division by 0 is not permitted! ";
+                  string title = "Do not divide by 0";
                   MessageBox.Show(message, title);
               }
             /*if (termen2 == 0)
