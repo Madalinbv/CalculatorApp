@@ -61,9 +61,18 @@ namespace CalculatorApp
         {
             decimal termen1 = numericUpDownTermen1.Value;
             decimal termen2 = numericUpDownTermen2.Value;
+            if (termen2 == 0)
+                {
+                string message = "Division by 0!";
+                string title = "Do not divide by 0";
+                MessageBox.Show(message, title);
+            }
+            else
+            {
 
-            decimal rezultat = termen1 / termen2;
-            textBoxRezultat.Text = rezultat.ToString();
+                decimal rezultat = termen1 / termen2;
+                textBoxRezultat.Text = rezultat.ToString();
+            }
 
         }
     }
