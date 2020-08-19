@@ -61,7 +61,20 @@ namespace CalculatorApp
         {
             decimal termen1 = numericUpDownTermen1.Value;
             decimal termen2 = numericUpDownTermen2.Value;
-            if (termen2 == 0)
+            /*decimal rezultat = termen1 / termen2;
+            textBoxRezultat.Text = rezultat.ToString();*/
+            try
+              {
+                  decimal rezultat = termen1 / termen2;
+                  textBoxRezultat.Text = rezultat.ToString();
+              }
+            catch (DivideByZeroException exc)
+              {
+                  string message = "Do not divide by 0 :slight_smile: ";
+                  string title = "Divide by 0";
+                  MessageBox.Show(message, title);
+              }
+            /*if (termen2 == 0)
                 {
                 string message = "Division by 0!";
                 string title = "Do not divide by 0";
@@ -72,7 +85,7 @@ namespace CalculatorApp
 
                 decimal rezultat = termen1 / termen2;
                 textBoxRezultat.Text = rezultat.ToString();
-            }
+            }*/
 
         }
     }
